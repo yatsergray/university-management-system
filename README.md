@@ -6,27 +6,27 @@ A Spring Boot application designed to manage university departments and lector i
 
 ### 1. **Department Head Information**
 - Retrieve the head of a specific department by name. The application prompts the user to enter a department name and returns the name of the department head (if available).
-  <br> ![](img/1.png)
+  <br><br> ![](img/1.png)
 
 ### 2. **Department Statistics**
 - Get detailed statistics for a department, including counts of assistants, associate professors, and professors. The user inputs the department name, and the system displays the breakdown of faculty types.
-  <br> ![](img/2.png)
+  <br><br> ![](img/2.png)
 
 ### 3. **Department Average Salary**
 - Calculate and display the average salary of all lectors within a department. This is done by computing the average of all lector salaries in the selected department.
-  <br> ![](img/3.png)
+  <br><br> ![](img/3.png)
 
 ### 4. **Department Employee Count**
 - Count and display the total number of employees (lectors) in a department. This information is presented after the user inputs the department name.
-  <br> ![](img/4.png)
+  <br><br> ![](img/4.png)
 
 ### 5. **Global Lector Search**
 - Perform a global search for lectors based on a name template. Users can enter a partial name, and the application will list all lectors whose names match the template.
-  <br> ![](img/5.png)
+  <br><br> ![](img/5.png)
 
 ### 6. **Exit Command**
 - The application allows users to exit the program gracefully by entering an exit command.
-  <br> ![](img/exit.png)
+  <br><br> ![](img/exit.png)
 
 ## How It Works
 
