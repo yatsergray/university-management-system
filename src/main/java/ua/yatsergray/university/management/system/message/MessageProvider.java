@@ -68,7 +68,6 @@ public class MessageProvider {
     @Value("${exit.command.message}")
     private String exitCommandMessage;
 
-    @Getter
     @Value("${choose.command.number.message}")
     private String chooseCommandNumberMessage;
 
@@ -104,6 +103,10 @@ public class MessageProvider {
 
     public String getDepartmentAverageSalaryResultMessage(String departmentName, BigDecimal averageSalary) {
         return String.format(departmentAverageSalaryResultMessage, departmentName, averageSalary);
+    }
+
+    public String getChooseCommandNumberMessage(String exitCommand) {
+        return String.format(chooseCommandNumberMessage, exitCommand);
     }
 
     public String getDepartmentEmployeeCountResultMessage(String departmentName, Long employeeCount) {

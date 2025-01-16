@@ -56,7 +56,7 @@ public class UniversityManagementSystemApplication implements CommandLineRunner 
     }
 
     private void displayMenu() {
-        System.out.printf("%n%s%n", messageProvider.getChooseCommandNumberMessage());
+        System.out.printf("%n%s%n", messageProvider.getChooseCommandNumberMessage(messageProvider.getExitCommandMessage()));
         System.out.printf("1. %s%n", messageProvider.getDepartmentHeadCommandMessage());
         System.out.printf("2. %s%n", messageProvider.getDepartmentStatisticsCommandMessage());
         System.out.printf("3. %s%n", messageProvider.getDepartmentAverageSalaryCommandMessage());
